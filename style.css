@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: url('/assets/home.png');
+  background-repeat: no-repeat;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background-size: 100vw 100vh;
+}
+
+nav {
+  padding: 4rem 7.2rem;
+  display: flex;
+  gap: 3.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(240, 7%, 78%); 
+  font-size: 2.2rem;
+}
+
+.grow {
+  color: #ffffff;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.container{
+  margin: 17.2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 6rem;
+  color: hsl(240, 9%, 89%);
+  padding-bottom: 2.1rem;
+}
+
+button {
+  border: 0.2rem solid #FFFFFF;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  background: transparent;
+  width: 19.5rem;
+  height: 4.8rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  background: #ffffff;
+  color: hsl(194, 97%, 31%);
+}
+
+body.about {
+  background: url('/assets/about.png');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+
+body.about h1,
+body.explorer h1{
+  margin: 6.3rem 10.2rem 1.6rem;
+  padding: 0;
+}
+
+body.about p{
+  margin-left: 10.2rem;
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+  color: hsl(240, 9%, 89%);
+  height: 20.3rem;
+  width: 64.8rem;
+}
+
+body.explorer {
+  background: url('/assets/explorer.png');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+
+body.explorer p {
+  margin-left: 10.2rem;
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+  color: hsl(240, 9%, 89%);
+  height: 26.1rem;
+  width: 64.8rem;
+}
+
